@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .component {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    background: rgb(235,238,235);
+    
+  }
+  
+  .heading {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .disease-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 25px;
+    cursor: pointer;
+   width: 600px;
+    margin: 10px 30px;
+    border: 2px solid black;
+  }
+  
+  .disease-name {
+    margin: 0;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+  }
+  .disease-image{
+    width: 300px;
+    height: 300px;
+  }
+  .disease-details {
+    display: none;
+  }
+  
+  .disease-details.show {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .disease-details p {
+    margin: 0;
+    color: black;
+    text-align: left; 
+  }
+  
