@@ -31,18 +31,13 @@ export default function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link navbar-brand" to="/Services">
-                Services
+            <li className="nav-item active">
+              <Link className="nav-link navbar-brand" to="/login">
+                Login
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link navbar-brand" to="/About">
-                About Us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link navbar-brand" to="/ContactUs">
+              <Link className="nav-link navbar-brand" to="/contactUs">
                 Contact Us
               </Link>
             </li>

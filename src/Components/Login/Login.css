@@ -1,0 +1,49 @@
+.login{
+  height: 680px;
+  background-image: url('D:/SDP_SKIN/frontend/src/Components/Assets/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  /* background: linear-gradient(90deg,#E2D36B,#BAC94A,#96D7C6,#6C8CBF); */
+  /* background: linear-gradient(90deg,#4A707A,#94B0B7,#C2C8C5,#DDDDDA); */
+}
+
+.patient-form {
+    display: flex;
+    justify-content: center;   
+  }
+
+  .box {
+    margin-top: 30px;
+    width: 550px; 
+    padding: 20px;
+    border: 2px solid #ccc; 
+  }
+
+  .patient-form label{
+    margin-right: 400px;
+  }
+  
+  .patient-form form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  
+  .patient-form input { 
+    margin-bottom: 8px;
+    padding: 8px;
+  }
+  
+  .patient-form button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .patient-form button:hover {
+    background-color: #0056b3;
+  }
+  
